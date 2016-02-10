@@ -1,0 +1,2947 @@
+<table class="table">
+          <thead>
+            <tr>
+              <th class="first" field="PLAYER_NAME">Player</th>
+              <th class="text sortable cf" field="TEAM_ABBREVIATION">TEAM</th>
+              <th class="sortable cf" field="AGE">AGE</th>
+              <th class="sortable cf ng-scope" field="GP" tooltip="Games Played - The number of games a player or team has played.">GP</th>
+              <th class="sortable cf ng-scope" field="W" tooltip="Wins - The number of games the player or team has won.">W</th>
+              <th class="sortable cf ng-scope" field="L" tooltip="Losses - The number of games the player or team has lost.">L</th>
+              <th class="sortable cf ng-scope" field="MIN" tooltip="Minutes - The number of minutes a player or team has played.">MIN</th>
+              <th class="sortable cf ng-scope" field="FGM" tooltip="Field Goals Made - The number of field goals that a player or team has made. This includes both 2 pointers and 3 pointers.">FGM</th>
+              <th class="sortable cf ng-scope" field="FGA" tooltip="Field Goals Attempted - The number of field goals that a player or team has attempted. This includes both 2 pointers and 3 pointers.">FGA</th>
+              <th class="sortable cf ng-scope" field="FG_PCT" tooltip="Field Goal Percentage - The percentage of field goals that a player makes. The formula to determine field goal percentage is: Field Goals Made/Field Goals Attempted.">FG%</th>
+              <th class="sortable cf ng-scope" field="FG3M" tooltip="3 Point Field Goals Made - The number of 3 point field goals that a player or team has made.">3PM</th>
+              <th class="sortable cf ng-scope" field="FG3A" tooltip="3 Point Field Goals Attempted - The number of 3 point field goals that a player or team has attempted.">3PA</th>
+              <th class="sortable cf ng-scope" field="FG3_PCT" tooltip="3 Point Field Goal Percentage - The percentage of 3 point field goals that a player or team has made. The formula to determine 3 point field goal percentage is: 3 Point Field Goals Made/3 Point Field Goals Attempted.">3P%</th>
+              <th class="sortable cf ng-scope" field="FTM" tooltip="Free Throws Made - The number of free throws that a player or team has successfully made.">FTM</th>
+              <th class="sortable cf ng-scope" field="FTA" tooltip="Free Throws Attempted - The number of free throws that a player or team has taken.">FTA</th>
+              <th class="sortable cf ng-scope" field="FT_PCT" tooltip="Free Throw Percentage - The percentage of free throws that a player or team has made. The formula to determine free throw percentage is: Free Throws Made/Free Throws Attempted.">FT%</th>
+              <th class="sortable cf ng-scope" field="OREB" tooltip="Offensive Rebounds - The number of rebounds a player or team has collected while they were on offense.">OREB</th>
+              <th class="sortable cf ng-scope" field="DREB" tooltip="Defensive Rebounds - The number of rebounds a player or team has collected while they were on defense.">DREB</th>
+              <th class="sortable cf ng-scope" field="REB" tooltip="Rebounds - A rebound occurs when a player recovers the ball after a missed shot. This statistic is the number of total rebounds a player or team has collected on either offense or defense.">REB</th>
+              <th class="sortable cf ng-scope" field="AST" tooltip="Assists - An assist occurs when a player completes a pass to a teammate that directly leads to a made field goal.">AST</th>
+              <th class="sortable cf ng-scope" field="TOV" tooltip="Turnovers - A turnover occurs when the team on offense loses the ball to the defense.">TOV</th>
+              <th class="sortable cf ng-scope" field="STL" tooltip="Steals - A steal occurs when a defensive player takes the ball from a player on offense, causing a turnover.">STL</th>
+              <th class="sortable cf ng-scope" field="BLK" tooltip="Blocks - A block occurs when an offensive player attempts a shot, and the defense player tips the ball, blocking their chance to score.">BLK</th>
+              <th class="sortable cf ng-scope" field="PF" tooltip="Personal Fouls - The total number of fouls that a player or team has committed.">PF</th>
+              <th class="sortable cf ng-scope" field="DD2" tooltip="Double Doubles - A player records a Double Double when they record 10 or more units in two stat categories. A Double Double is most commonly recorded in the categories of points, rebounds, or assists.">DD2</th>
+              <th class="sortable cf ng-scope" field="TD3" tooltip="Triple Doubles - A player records a Triple Double when they record 10 or more units in three different stat categories. A Triple Double is most commonly recorded in the categories of points, rebounds, or assists.">TD3</th>
+              <th class="sortable cf ng-scope" field="PTS" tooltip="Points - The number of points a player or team has scored. A point is scored when a player makes a basket.">PTS</th>
+              <th class="sortable cf ng-scope" field="PLUS_MINUS" tooltip="Plus/Minus - The point differential of the score for a player while on the court. For a team, it is how much they are winning or losing by.">+/-</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="0" class="ng-scope">
+              <td class="first"><a href="/player/#!/202329/stats/?p=al-farouq-aminu" class="ng-binding">Al-Farouq Aminu</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">25</td>
+              <td class="ng-binding">53</td>
+              <td class="ng-binding">26</td>
+              <td class="ng-binding">27</td>
+              <td class="ng-binding">29.4</td>
+              <td class="ng-binding stats-popup-link">3.8<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">9.2<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">40.9</td>
+              <td class="ng-binding stats-popup-link">1.5<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">4.2<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">35.0</td>
+              <td class="ng-binding stats-popup-link">1.4<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.0<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">71.2</td>
+              <td class="ng-binding stats-popup-link">1.2<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">5.2<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">6.4<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.5<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.6<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.9<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.7<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.2<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">7</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">10.4<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">1.0</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="1" class="ng-scope">
+              <td class="first"><a href="/player/#!/203459/stats/?p=allen-crabbe" class="ng-binding">Allen Crabbe</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">23</td>
+              <td class="ng-binding">52</td>
+              <td class="ng-binding">25</td>
+              <td class="ng-binding">27</td>
+              <td class="ng-binding">26.1</td>
+              <td class="ng-binding stats-popup-link">4.4<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">9.2<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">47.7</td>
+              <td class="ng-binding stats-popup-link">1.4<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">3.7<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">37.5</td>
+              <td class="ng-binding stats-popup-link">1.2<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.3<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">87.1</td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.4<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.7<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.2<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.9<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.9<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.2<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.6<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">11.3<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">-0.2</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="2" class="ng-scope">
+              <td class="first"><a href="/player/#!/203468/stats/?p=cj-mccollum" class="ng-binding">CJ McCollum</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">24</td>
+              <td class="ng-binding">51</td>
+              <td class="ng-binding">26</td>
+              <td class="ng-binding">25</td>
+              <td class="ng-binding">35.1</td>
+              <td class="ng-binding stats-popup-link">8.1<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">18.3<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">44.3</td>
+              <td class="ng-binding stats-popup-link">2.4<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">6.2<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">39.2</td>
+              <td class="ng-binding stats-popup-link">2.2<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.7<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">79.7</td>
+              <td class="ng-binding stats-popup-link">0.6<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">3.0<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">3.6<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">4.3<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.4<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.2<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.4<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">2</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">20.8<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">2.0</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="3" class="ng-scope">
+              <td class="first"><a href="/player/#!/2549/stats/?p=chris-kaman" class="ng-binding">Chris Kaman</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">33</td>
+              <td class="ng-binding">8</td>
+              <td class="ng-binding">6</td>
+              <td class="ng-binding">2</td>
+              <td class="ng-binding">8.0</td>
+              <td class="ng-binding stats-popup-link">1.3<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">3.5<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">35.7</td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0.0</td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0.0</td>
+              <td class="ng-binding stats-popup-link">0.4<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.8<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.1<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.6<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.6<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.8<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">2.5<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">-3.6</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="4" class="ng-scope">
+              <td class="first"><a href="/player/#!/1626146/stats/?p=cliff-alexander" class="ng-binding">Cliff Alexander</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">20</td>
+              <td class="ng-binding">7</td>
+              <td class="ng-binding">2</td>
+              <td class="ng-binding">5</td>
+              <td class="ng-binding">4.5</td>
+              <td class="ng-binding stats-popup-link">0.7<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.4<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">50.0</td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0.0</td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0.0</td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.6<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.9<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">1.4<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0.3</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="5" class="ng-scope">
+              <td class="first"><a href="/player/#!/203081/stats/?p=damian-lillard" class="ng-binding">Damian Lillard</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">25</td>
+              <td class="ng-binding">46</td>
+              <td class="ng-binding">22</td>
+              <td class="ng-binding">24</td>
+              <td class="ng-binding">36.1</td>
+              <td class="ng-binding stats-popup-link">8.2<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">19.7<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">41.8</td>
+              <td class="ng-binding stats-popup-link">2.9<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">8.0<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">36.3</td>
+              <td class="ng-binding stats-popup-link">4.8<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">5.6<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">86.3</td>
+              <td class="ng-binding stats-popup-link">0.7<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">3.7<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">4.4<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">7.3<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">3.3<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.9<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.3<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">13</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">24.2<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">1.2</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="6" class="ng-scope">
+              <td class="first"><a href="/player/#!/202334/stats/?p=ed-davis" class="ng-binding">Ed Davis</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">26</td>
+              <td class="ng-binding">52</td>
+              <td class="ng-binding">25</td>
+              <td class="ng-binding">27</td>
+              <td class="ng-binding">21.4</td>
+              <td class="ng-binding stats-popup-link">2.6<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">4.3<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">60.8</td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0.0</td>
+              <td class="ng-binding stats-popup-link">1.5<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.7<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">55.3</td>
+              <td class="ng-binding stats-popup-link">2.9<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">4.3<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">7.2<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.1<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.7<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.6<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.7<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.5<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">8</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">6.7<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0.2</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="7" class="ng-scope">
+              <td class="first"><a href="/player/#!/201945/stats/?p=gerald-henderson" class="ng-binding">Gerald Henderson</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">28</td>
+              <td class="ng-binding">44</td>
+              <td class="ng-binding">22</td>
+              <td class="ng-binding">22</td>
+              <td class="ng-binding">17.7</td>
+              <td class="ng-binding stats-popup-link">2.8<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">6.6<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">42.4</td>
+              <td class="ng-binding stats-popup-link">0.7<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.9<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">37.8</td>
+              <td class="ng-binding stats-popup-link">1.3<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.7<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">75.3</td>
+              <td class="ng-binding stats-popup-link">0.4<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.3<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.7<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.0<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.8<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.4<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.9<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">7.5<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0.4</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="8" class="ng-scope">
+              <td class="first"><a href="/player/#!/1626242/stats/?p=luis-montero" class="ng-binding">Luis Montero</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">22</td>
+              <td class="ng-binding">7</td>
+              <td class="ng-binding">2</td>
+              <td class="ng-binding">5</td>
+              <td class="ng-binding">3.3</td>
+              <td class="ng-binding stats-popup-link">0.7<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.9<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">38.5</td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.7<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">20.0</td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">100</td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">1.9<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">-0.9</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="9" class="ng-scope">
+              <td class="first"><a href="/player/#!/203486/stats/?p=mason-plumlee" class="ng-binding">Mason Plumlee</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">25</td>
+              <td class="ng-binding">53</td>
+              <td class="ng-binding">26</td>
+              <td class="ng-binding">27</td>
+              <td class="ng-binding">25.7</td>
+              <td class="ng-binding stats-popup-link">3.4<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">6.6<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">50.9</td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0.0</td>
+              <td class="ng-binding stats-popup-link">2.4<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">3.8<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">61.6</td>
+              <td class="ng-binding stats-popup-link">2.6<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">5.1<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">7.7<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.6<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.9<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.8<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.1<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">3.1<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">13</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">9.1<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">-0.2</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="10" class="ng-scope">
+              <td class="first"><a href="/player/#!/203090/stats/?p=maurice-harkless" class="ng-binding">Maurice Harkless</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">22</td>
+              <td class="ng-binding">51</td>
+              <td class="ng-binding">24</td>
+              <td class="ng-binding">27</td>
+              <td class="ng-binding">17.0</td>
+              <td class="ng-binding stats-popup-link">2.0<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">4.3<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">46.4</td>
+              <td class="ng-binding stats-popup-link">0.4<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.6<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">27.5</td>
+              <td class="ng-binding stats-popup-link">0.6<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.2<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">54.1</td>
+              <td class="ng-binding stats-popup-link">1.0<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.0<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">3.0<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.8<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.9<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.5<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.4<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.2<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">1</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">5.1<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">-1.4</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="11" class="ng-scope">
+              <td class="first"><a href="/player/#!/203086/stats/?p=meyers-leonard" class="ng-binding">Meyers Leonard</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">23</td>
+              <td class="ng-binding">46</td>
+              <td class="ng-binding">24</td>
+              <td class="ng-binding">22</td>
+              <td class="ng-binding">23.1</td>
+              <td class="ng-binding stats-popup-link">3.4<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">7.6<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">44.2</td>
+              <td class="ng-binding stats-popup-link">1.4<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">4.1<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">34.6</td>
+              <td class="ng-binding stats-popup-link">0.6<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.8<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">74.3</td>
+              <td class="ng-binding stats-popup-link">0.9<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">4.1<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">5.0<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.6<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.3<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.2<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">3.0<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">2</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">8.7<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">1.3</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="12" class="ng-scope">
+              <td class="first"><a href="/player/#!/203943/stats/?p=noah-vonleh" class="ng-binding">Noah Vonleh</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">20</td>
+              <td class="ng-binding">50</td>
+              <td class="ng-binding">24</td>
+              <td class="ng-binding">26</td>
+              <td class="ng-binding">16.0</td>
+              <td class="ng-binding stats-popup-link">1.5<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">3.5<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">42.9</td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.5<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">16.0</td>
+              <td class="ng-binding stats-popup-link">0.5<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.6<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">81.3</td>
+              <td class="ng-binding stats-popup-link">1.3<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.8<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">4.1<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.5<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.6<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.5<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">2.0<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">3.6<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">-1.3</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="13" class="ng-scope">
+              <td class="first"><a href="/player/#!/1626192/stats/?p=pat-connaughton" class="ng-binding">Pat Connaughton</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">23</td>
+              <td class="ng-binding">20</td>
+              <td class="ng-binding">9</td>
+              <td class="ng-binding">11</td>
+              <td class="ng-binding">2.9</td>
+              <td class="ng-binding stats-popup-link">0.2<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.0<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">20.0</td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.5<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">22.2</td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">100</td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.5<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.7<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.2<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.2<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">0.6<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">-0.5</td>
+            </tr><!-- end ngRepeat: (i, row) in page --><tr data-ng-repeat="(i, row) in page" index="14" class="ng-scope">
+              <td class="first"><a href="/player/#!/204025/stats/?p=tim-frazier" class="ng-binding">Tim Frazier</a></td>
+              <td class="text"><a href="/team/#!/1610612757/stats/?t=por" class="ng-binding">POR</a></td>
+              <td class="ng-binding">25</td>
+              <td class="ng-binding">34</td>
+              <td class="ng-binding">18</td>
+              <td class="ng-binding">16</td>
+              <td class="ng-binding">8.0</td>
+              <td class="ng-binding stats-popup-link">0.6<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.8<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FGA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">33.3</td>
+              <td class="ng-binding stats-popup-link">0.1<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3M" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.5<stats-popup shotchart="" video="" tracking="" params="params" row="row" field="FG3A" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart --><li ng-if="hasShotchart" class="ng-scope"><a ng-click="openOverlay(shotchartURL, 'shotchart', contextTitle)">Shotchart</a></li><!-- end ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">17.6</td>
+              <td class="ng-binding stats-popup-link">0.2<stats-popup video="" tracking="" params="params" row="row" field="FTM" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.4<stats-popup video="" tracking="" params="params" row="row" field="FTA" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">53.3</td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="OREB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.8<stats-popup video="" tracking="" params="params" row="row" field="DRBE" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.1<stats-popup video="" tracking="" params="params" row="row" field="REB" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">1.2<stats-popup video="" tracking="" params="params" row="row" field="AST" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.8<stats-popup video="" tracking="" params="params" row="row" field="TOV" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.3<stats-popup video="" tracking="" params="params" row="row" field="STL" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.0<stats-popup video="" tracking="" params="params" row="row" field="BLK" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding stats-popup-link">0.9<stats-popup video="" tracking="" params="params" row="row" field="PF" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding">0</td>
+              <td class="ng-binding stats-popup-link">1.5<stats-popup video="" tracking="" params="params" row="row" field="PTS" class="ng-isolate-scope"><div class="svtlink popover fade in">
+  <div class="arrow"></div>
+  <div class="popover-content">
+    <ul>
+      <!-- ngIf: hasVideo --><li ng-if="hasVideo" class="ng-scope"><a ng-click="openOverlay(videoURL, 'cvp', contextTitle)">Video</a></li><!-- end ngIf: hasVideo -->
+      <!-- ngIf: hasShotchart -->
+      <!-- ngIf: hasTracking -->
+      <!-- ngIf: hasMovement -->
+      <!-- ngIf: hasPBPMovement -->
+    </ul>
+  </div>
+</div></stats-popup></td>
+              <td class="ng-binding">-0.5</td>
+            </tr><!-- end ngRepeat: (i, row) in page -->
+          </tbody>
+        </table>
